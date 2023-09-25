@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# A Travel List App built with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- `Repository:` [02-0-learn-react-steps](https://github.com/leilaZ1111/02-learn-react-travel-list)
+- `Vercel deployment:` [Visit Now](https://02-learn-react-travel-list.vercel.app/)
+- `Type of Challenge:` Learning React
 
-## Available Scripts
+## Description and Learning objectives of this project:
 
-In the project directory, you can run:
+This Travel List App is a dynamic and interactive web application built using React that allows users to create and manage their packing lists for trips.
 
-### `npm start`
+The project demonstrates proficiency in React components and the effective management of states and props through React's hooks and lifting up state techniques. It showcases essential React concepts such as component composition, state management, and conditional rendering.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project is part of the online course ["The Ultimate React Course 2023: React, Redux, & More"](https://www.udemy.com/share/108PTK3@svd7LSKS9ey6F-mAoiPwPf0maT7NoRyTUO4HqpNWgU6hsdF-ESPRYJMbg9njS0DY-g==/) by Jonas Schmedtmann on Udemy. It serves as a practical application of the concepts and skills taught in the course, making it an excellent resource for React enthusiasts looking to learn by example.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Technologies
 
-### `npm test`
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sneak Peeks in "Far Away"
 
-### `npm run build`
+![Preview](far-away-app.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+<img src="./far-away-app.gif" width="70%" alt="Travel List App gif">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Add an Item:** Users can easily add items to their packing list, specifying the item's description, quantity, and packing status.
 
-### `npm run eject`
+- **Delete an Item:** Unwanted or redundant items can be removed from the list with a simple delete action.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Check/Uncheck Packing Status:** Users can mark items as packed or unpacked, helping them keep track of their progress while preparing for their trip.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Sort by Packing Status:** The app offers the option to sort the list based on the packing status of items, allowing users to quickly identify packed and unpacked items.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Sort by Input Order:** Items are initially displayed in the order they were added, providing a chronological view of the packing list.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Sort by Description:** Users can sort items alphabetically by their description, aiding in organizing items efficiently for their trip.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Clear the List:** When the trip is over or the list needs a fresh start, users have the option to clear the entire list.
